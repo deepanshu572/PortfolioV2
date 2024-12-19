@@ -3,9 +3,10 @@ import { NavLink } from "react-router";
 function NavBar() {
   return (
     <>
-      <div className="navbar_wrap fixed w-full ">
-        <div className="navbar m-auto w-[35rem] flex gap-4 items-center justify-evenly bg-white  my-4 mt-[2rem] p-3 rounded-3xl">
-          <NavLink
+    
+      <nav className="navbar_wrap fixed z-[1080] w-full ">
+        <div className="navbar backdrop-blur-[4px]  m-auto w-[35rem] flex gap-4 items-center justify-evenly bg-[#ffffffb3]  my-4 mt-[2rem] p-2 rounded-3xl">
+          <NavLink 
             style={({ isActive }) => ({
               color: isActive ? "black" : "#6B7280",
 
@@ -72,7 +73,7 @@ function NavBar() {
             Contact
           </NavLink>
         </div>
-      </div>
+      </nav>
     </>
   );
 }
