@@ -17,6 +17,34 @@ body{
 }
 
 
+.bg_shadow{
+    -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+}
+.exprience_icon svg{
+  font-size: 25px;
+}
+.exprience_wrap_box1{
+    justify-content: left;
+    flex-direction: row-reverse;
+}
+.exprience_wrap_box2{
+    justify-content: right;
+}
+.exprience_wrap_box3{
+    justify-content: left;
+    flex-direction: row-reverse;
+}
+/* .experience_wrapper_box::before{
+    content: "";
+    position: absolute;
+    top: 87px;
+    left: 18px;
+    height: 87%;
+    width: 4px;
+    background: #e5e7eb;
+    left: 50%;
+} */
 
 
 
@@ -143,6 +171,10 @@ body{
  
   
   @media screen and (max-width: 480px) {
+    .exprience_wrap_box2{
+        justify-content: left;
+         flex-direction: row-reverse;
+     }
     a.nav-link {
       padding: 0.75rem 0;
       font-size: 23px;

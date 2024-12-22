@@ -8,7 +8,7 @@ const Contact = () => {
           <h2 className="font-[600] text-3xl pb-8 ">Contact me</h2>
           <p className="text-gray-700 px-6 lg:px-0 -mt-6 dark:text-white/80">
             Please contact me directly at{" "}
-            <a class="underline" href="mailto:krdeepanshu572@gmail.com">
+            <a className="underline" href="mailto:krdeepanshu572@gmail.com">
               krdeepanshu572@gmail.com
             </a>{" "}
             or through this form.
@@ -21,11 +21,11 @@ const Contact = () => {
             placeholder="Your Email"
           />
           <textarea
-            class=" w-full border border-black/5 h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 outline-none transition-all dark:outline-none"
+            className=" w-full border border-black/5 h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 outline-none transition-all dark:outline-none"
             name="message"
             placeholder="Your message"
             required=""
-            maxlength="5000"
+            maxLength="5000"
             style={{ height: "258px" }}
           ></textarea>
           <div className="w-full flex justify-start ">
@@ -34,9 +34,9 @@ const Contact = () => {
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 512 512"
-                class="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1"
+                className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
