@@ -13,7 +13,7 @@ const Home = () => {
         <div className="home_profile bg-white rounded-full w-[7rem] h-[7rem]  relative">
           <img
             className="w-full h-full p-1 object-cover rounded-full"
-            src="../public/Assets/img/People.png"
+            src="../Assets/img/People.png"
           />
           <p className="absolute bottom-0 right-0 text-[20px] ">👋</p>
         </div>

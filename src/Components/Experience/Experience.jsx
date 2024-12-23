@@ -58,6 +58,7 @@ const Experience = () => {
       description:
         "I am currently pursuing a Bachelor of Science in Information Technology (BSc IT).",
       svg: svg1,
+      project : false
     },
     {
       name: "Front-End Developer",
@@ -66,6 +67,7 @@ const Experience = () => {
       description:
         " I have 1.5 years of professional experience as a Frontend Developer based in Ranchi.",
       svg: svg2,
+      project : true
     },
     {
       name: "React Fronted Developer",
@@ -74,6 +76,7 @@ const Experience = () => {
       description:
         "I recently enhanced my skill set by learning React.js during my job, where I successfully developed several projects utilizing this technology. Additionally, I have gained proficiency in Next.js and Tailwind CSS, further strengthening my expertise in modern frontend development.",
       svg: svg3,
+      project : false
     },
   ];
 
@@ -93,6 +96,7 @@ const Experience = () => {
                 <h4 className="font-[600] uppercase text-sm pb-1">{val.name}</h4>
                   <h3 className="font-[600] text-xs pb-1" >{val.position}</h3>
                   <p className=" text-sm !mt-1 !font-normal text-gray-700 dark:text-white/75 " >{val.description}</p>
+               {val.project ? (<div className=" flex flex-col pt-1"> <span className=" text-xs !mt-1 !font-normal text-gray-700 dark:text-white/75 " > Kalam Academy - <a href=" www.kalamacademy.org"> www.kalamacademy.org</a> </span> <span className=" text-xs !mt-1 !font-normal text-gray-700 dark:text-white/75 " > MyGalla - <a href="www.mygalla.com"> www.mygalla.com </a> </span><span className=" text-xs !mt-1 !font-normal text-gray-700 dark:text-white/75 " >  E-commerce Store - <a href="testcomingsoon.vercel.app"> testcomingsoon.vercel.app</a> </span></div>) : ""}   
                   <b className="lg:hidden">{val.duration}</b>
                 </div>
               </div>

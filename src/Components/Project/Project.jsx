@@ -67,7 +67,7 @@ const Project = () => {
             <div className="projects-box">
                 <div className="project1">
                     <div className="left">
-                     <a href="https://imdm-movie.vercel.app/"><img className="imdb" src="./../public/Assets/img/Imdb.png" alt=""/></a>   
+                     <a href="https://imdm-movie.vercel.app/"><img className="imdb" src="./../Assets/img/Imdb.png" alt=""/></a>   
                     </div>
                     <div className="right">
                         <b>IMDB Movie (DECEMBER 2023)🎥</b>
@@ -101,7 +101,7 @@ const Project = () => {
                 </div>
                 <div className="project1">
                     <div className="left">
-                     <a href="https://robotic-branding.vercel.app/"><img className="imdb" src="../public/Assets/img/robot.png" alt=""/></a>   
+                     <a href="https://robotic-branding.vercel.app/"><img className="imdb" src="../Assets/img/robot.png" alt=""/></a>   
                     </div>
                     <div className="right">
                         <b>Robltbranding (DECEMBER 2024)🎥</b>
